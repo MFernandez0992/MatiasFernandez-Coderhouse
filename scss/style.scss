@@ -1,3 +1,17 @@
-html{
-    color: black;
+/* Importaciones */
+@import "_colores.scss";
+@import "_nav.scss";
+@import "_portada.scss";
+@import "_nosotros.scss";
+
+/* Variables */
+$font-principal: 'Outfit', sans-serif;
+$background-color: #000;
+
+body{
+    background-color: $background-color;
+    font-family: $font-principal;
+
+    /* Suavizado de scroll */
+    scroll-behavior: smooth;
 }

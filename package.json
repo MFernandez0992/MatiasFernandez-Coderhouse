@@ -20,6 +20,6 @@
   "homepage": "https://github.com/MFernandez0992/MatiasFernandez-Coderhouse#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }

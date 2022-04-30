@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/f9f7f10fae.js" crossorigin="anonymous"></script>
+    
     <!-- Keywords -->
     <meta name="keywords" content="Bar, Pizzas, Cerveza, Pool, Baile, Pista, Música, Uruguay, Montevideo, Movida">
     <!-- Description -->
@@ -24,38 +27,75 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg pt-3 navbar-light bg-transparent position-absolute w-100">
-        <div class="container">
-          <a class="navbar-brand fw-bold" href="#"><img src="assets/La Blanqueada - Logotipo Final Positivo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars lead text-dark border-0"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item d-flex">
-                <a class="nav-link align-self-center text-white" aria-current="page" href="#">El Bar</a>
-              </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link align-self-center text-white" href="#">Menú</a>
-              </li>
-             
-              <li class="nav-item d-flex">
-                <a class="nav-link align-self-center text-white">Reservas</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-danger">Pedidos Ya</a>
-              </li>
-            </ul>
+  
+  <header class="vh-100">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg pt-3 navbar-light bg-transparent position-absolute w-100">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><img src="assets/La Blanqueada - Logotipo Final Positivo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars lead text-light border-0"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item d-flex">
+                  <a class="nav-link align-self-center text-white" aria-current="page" href="#">El Bar</a>
+                </li>
+                <li class="nav-item d-flex">
+                  <a class="nav-link align-self-center text-white" href="#">Menú</a>
+                </li>
+               
+                <li class="nav-item d-flex">
+                  <a class="nav-link align-self-center text-white">Reservas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-danger">Pedidos Ya</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <!-- /Navbar -->
+
+      <!-- Cover -->
+      <div class="cover h-100">
+        <div class="container-fluid h-100 bg-image d-flex align-items-center justify-content-center text-center">
+          <div class="text-white">
+            <h1 class="mb-3">La Blanqueada Bar & Lounge</h1>
+            <h5>Montevideo - Uruguay</h5>
+            <a href="#reservas" class="btn btn-outline-light btn-lg m-2">Reservas</a>
           </div>
         </div>
-    </nav>
+      </div>
+    <!-- /Cover-->
+  </header>
 
-    <section id="portada" class="w-100 mt-5">
-      <img src="assets/IMG_1781.jpeg" alt="Imagen cover">
-      <h1>La Blanqueada Bar & Lounge</h1>
-      <a href="#reservas"><div class="btn btn-outline-light">Reservas</div></a>
+  <section id="nosotros" class="vh-100">
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center text-center ">
+      <h2 class="text-white mt-4 mb-2 fs-1">El bar</h2>
+      <p class="nosotros w-75 fs-4  text-white">Somos un emprendimiento joven ubicado en el corazón de La Blanqueada, nos centramos en el entretenimiento y el disfrute de nuestros clientes que nos acompañan cada día</p>
 
-    </section>
+      <div class="infoNosotros d-flex flex-row w-100 justify-content-around text-white">
+        <div class="infoNosotrosCard mt-5 col-3">
+          <h3 class="fs-5">Tragos</h3>
+          <img class="mt-2" src="assets/IMG_5699.jpeg" alt="">
+          <p></p>
+        </div>
+        
+        <div class="infoNosotrosCard mt-5 col-3">
+          <h3 class="fs-5">Cerveza Artesanal</h3>
+          <img class="mt-2" src="assets/IMG_8045.jpeg" alt="">
+          <p></p>
+        </div>
+        
+        <div class="infoNosotrosCard mt-5 col-3">
+          <h3 class="fs-5">Pool y pantalla gigante</h3>
+          <img class="mt-2" src="assets/IMG_1781.jpeg" alt="">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

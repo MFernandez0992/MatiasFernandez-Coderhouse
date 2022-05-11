@@ -2,6 +2,7 @@
 @import "_reservas.scss";
 @import "_nav.scss";
 @import "_cover.scss";
+@import "_menu.scss";
 @import "_nosotros.scss";
 
 /* Variables */
@@ -14,5 +15,10 @@ body{
 
     /* Suavizado de scroll */
     scroll-behavior: smooth;
+}
 
+.redes{
+    font-size: 35px;
+    padding: 10px;
+    color: #fff;
 }
